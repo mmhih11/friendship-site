@@ -40,6 +40,13 @@
   z-index: 9999;
 }
 </style>
+  <script>
+document.getElementById("auto-teddy").onclick = function(){
+  const pop = document.getElementById("teddy-popup");
+  pop.style.display = "block";
+  setTimeout(()=>{ pop.style.display="none"; }, 3000);
+};
+</script>
 <body>
 
   <!-- Fixed Logo -->
@@ -115,3 +122,4 @@
 </script>
 
 </html>
+
