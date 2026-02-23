@@ -6,6 +6,39 @@
 <title>1 Year of Friendship 💖</title>
 <link rel="stylesheet" href="style.css">
 </head>
+  <!-- AUTO TEDDY (NO CONFUSION VERSION) -->
+<div id="auto-teddy">🧸</div>
+<div id="teddy-popup">𝙃𝙀𝙇𝙇𝙊 𝘾𝙐𝙏𝙄𝙀𝙀𝙀 💖</div>
+
+<style>
+#auto-teddy{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 70px;
+  cursor: pointer;
+  z-index: 9999;
+  animation: teddyFloat 3s ease-in-out infinite;
+}
+@keyframes teddyFloat{
+  0%{transform:translateY(0)}
+  50%{transform:translateY(-12px)}
+  100%{transform:translateY(0)}
+}
+#teddy-popup{
+  position: fixed;
+  bottom: 110px;
+  right: 20px;
+  background: #fff;
+  padding: 12px 16px;
+  border-radius: 16px;
+  font-size: 14px;
+  color: #444;
+  box-shadow: 0 8px 20px rgba(0,0,0,.2);
+  display: none;
+  z-index: 9999;
+}
+</style>
 <body>
 
   <!-- Fixed Logo -->
@@ -79,4 +112,5 @@
     }, 1500);
   });
 </script>
+
 </html>
