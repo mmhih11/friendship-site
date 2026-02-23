@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>1 Year of Friendship 💖</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Fixed Logo -->
+  <div class="logo">
+    <img src="heart_logo1-removebg-preview.png" width="300px" alt="Friendship Logo">
+  </div>
+<h1>
+ <center>𝙃𝙚𝙡𝙡𝙤 𝙘𝙪𝙩𝙞𝙚 𝘼𝙧𝙚𝙚𝙨𝙝𝙖 </center></h1>
+  <!-- Page Content -->
+  <div class="page-wrapper">
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <h1>1 ʏᴇᴀʀ ᴏꜰ ʙᴇᴀᴜᴛɪꜰᴜʟ ꜰʀɪᴇɴᴅꜱʜɪᴘ 💖</h1>
+      <p>24 𝙁𝙚𝙗𝙧𝙪𝙖𝙧𝙮 – 𝘼 𝙙𝙖𝙮 𝙩𝙝𝙖𝙩 𝙢𝙚𝙖𝙣𝙨 𝙖 𝙡𝙤𝙩 💖</p>
+      <p class="typing-text"></p>
+    </section>
+
+    <!-- Story Section -->
+    <section class="story">
+      <div class="card">
+        𝙊𝙪𝙧 𝙛𝙧𝙞𝙚𝙣𝙙𝙨𝙝𝙞𝙥 𝙝𝙖𝙨 𝙘𝙤𝙢𝙥𝙡𝙚𝙩𝙚𝙙 1 𝙖𝙢𝙖𝙯𝙞𝙣𝙜 𝙮𝙚𝙖𝙧.<br>
+        ✨
+      </div>
+    </section>
+
+    <!-- Countdown Section -->
+    <section class="countdown">
+      <h2>Countdown to Friendship Anniversary ⏳</h2>
+      <div class="counter"><span id="days"></span></div>
+      <div class="message">
+        𝙃𝙚𝙧𝙚'𝙨 𝙩𝙤 𝙢𝙖𝙣𝙮 𝙢𝙤𝙧𝙚 𝙮𝙚𝙖𝙧𝙨 𝙤𝙛 𝙛𝙧𝙞𝙚𝙣𝙙𝙨𝙝𝙞𝙥 💫 💝 ✨ 💕<br>
+        𝘾𝙚𝙡𝙚𝙗𝙧𝙖𝙩𝙞𝙣𝙜 𝙤𝙪𝙧 𝙗𝙚𝙖𝙪𝙩𝙞𝙛𝙪𝙡 𝙛𝙧𝙞𝙚𝙣𝙙𝙨𝙝𝙞𝙥 𝙨𝙞𝙣𝙘𝙚 24 𝙁𝙚𝙗𝙧𝙪𝙖𝙧𝙮 2025
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section">
+      <h2>Her Pics 💗</h2>
+      <div class="gallery">
+        <img src="bsf2.PNG" alt="Her Memory 1">
+        <img src="bsf1.jpeg" alt="Her Memory 2">
+      </div>
+
+      <h2>Our pics ❤️</h2>
+      <div class="gallery">
+        <img src="bsf3.PNG" alt="Our Memory 1">
+        <img src="IMG_0323.PNG" alt="Our Memory 2">
+      </div>
+    </section>
+
+  </div>
+
+  <!-- Footer -->
+  <footer class="sticky-footer">
+    𝙈𝙖𝙙𝙚 𝙬𝙞𝙩𝙝 𝙘𝙖𝙧𝙚, 𝙟𝙪𝙨𝙩 𝙛𝙤𝙧 𝙮𝙤𝙪 💝 ✨ 💕
+  </footer>
+
+</body>
+<!-- Mouse Hearts Script -->
+<script>
+  document.addEventListener('mousemove', function(e){
+    const heart = document.createElement('div');
+    heart.className = 'heart';
+    heart.style.left = e.pageX + 'px';
+    heart.style.top = e.pageY + 'px';
+    document.body.appendChild(heart);
+
+    setTimeout(() => {
+      heart.remove();
+    }, 1500);
+  });
+</script>
+</html>
